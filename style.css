@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background: silver;
+}
+
+.logo {
+    position: fixed;
+    padding: 10px;
+    font-size: 20px;
+    float: left;
+    width: 50%
+}
+
+.bar {
+    float: right;
+    width: 50%;
+    text-align: right;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+.options {
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 20px;
+    color: purple;
+}
+
+.options:hover {
+    text-decoration: underline;
+}
+
+form {
+    padding: 50px;
+    margin-left: 40px;
+}
+
+.searchbar {
+    font-size: 18px;
+    line-height: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 0 5px 0 8px;
+    width: 400px;
+}
+
+button {
+    font-size: 17px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.magnifying-glass {
+    height: 19px;
+}
+
+.box {
+    margin-left: 90px;
+    display: inline-block;
+    padding: 8px 15px;
+}
+
+.box-one {
+    border: 1px solid black;
+    margin-right: 0px;
+}
+
+.box-two {
+    border: 1px solid black;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.box-three {
+    border: 1px solid black;
+    margin-left: 0px;
+}
+
+.jobslist {
+    margin-left: 25px;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.location {
+    margin-left: 20px;
+    color: grey;
+}
+
+.date {
+    margin-right: 30px;
+    color: grey;
+}
+
+.jobs {
+    text-decoration: none;
+}
